@@ -3,12 +3,12 @@ kcu, the key conversion utility
 Install:
 
 ```
-go install github.com/ripta/kcu
+go install github.com/ripta/kcu/cmd/kcu
 ```
 
 Use:
 
 ```
-cat jwk.json | kcu jwk pem:private
+cat jwk.json | kcu
 ```
 
